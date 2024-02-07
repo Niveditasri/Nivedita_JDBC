@@ -2,11 +2,10 @@ package com.cu.main;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.SQLException;
 
 public class ConnectionClass {
 
-	public Connection getConnection() throws ClassNotFoundException, SQLException {
+	public Connection getConnection() throws ClassNotFoundException{
 		// TODO Auto-generated method stub
 		Connection con=null;//CONNECTION INTERFACE
 		//STEP1 LOAD AND REGISTER DRIVER
